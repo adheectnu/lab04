@@ -5,11 +5,12 @@ fun ViewHolaCurso() {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(
-            text = "Welcome to the Course!",
-            fontSize = 28.sp,
-            fontWeight = FontWeigh.Bold   // ❌ Error: debería ser FontWeight.Bold
-        )
+       Text(
+    text = "Welcome to the Course!",
+    fontSize = 32.sp,
+    fontWeight = FontWeight.Bold,
+    color = Color.Blue
+)
         Spacer(modifier = Modifier.heigh(16.dp))   // ❌ Error: debería ser height()
         Text(
             text = "Hello, Student!",
