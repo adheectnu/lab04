@@ -11,9 +11,11 @@ fun ViewHolaCurso() {
             fontWeight = FontWeigh.Bold   // ❌ Error: debería ser FontWeight.Bold
         )
         Spacer(modifier = Modifier.heigh(16.dp))   // ❌ Error: debería ser height()
-        Text(
-            text = "Hello, Student!",
-            fontSize = 20.xD   // ❌ Error: debería ser 20.sp
-        )
+      Text(
+    text = "Hello, Student!",
+    fontSize = 24.sp,       // más grande
+    color = Color.Red,      // color nuevo
+    fontStyle = FontStyle.Italic  // estilo cursiva
+)
     }
 }
