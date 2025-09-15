@@ -44,11 +44,13 @@ fun MovieCounter(modifier: Modifier = Modifier) {
         modifier = modifier.padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Text(text = "You have added $count movies.")
         Spacer(modifier = Modifier.height(16.dp))
         Button(onClick = { count++ }) {
             Text("Add Movie")
         }
+
     }
 
 }
